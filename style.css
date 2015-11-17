@@ -1,0 +1,28 @@
+#calendar {
+    display:inline-block;
+    background:#efefef;
+    margin: auto;
+    border:dashed 1px #orange;
+    display:table;
+    max-width: 850px;
+}
+h2.monthName.ng-binding {
+    text-align: center;
+}
+#calendar>div.week {
+    float:left;
+    border-top:solid 1px #ccc;
+}        
+.today {
+    background:orange;
+}
+.disabled {
+    color: rgba(0,0,0,.4) !important;
+}
+.day {
+    color:#2875C7;
+    font-weight:bold;
+    width: 100px;
+    padding:10px;
+    display: table-cell;
+}
